@@ -26,19 +26,8 @@ export type Dict = {
   arrivalTime: string;
   venueNote: string;
   directions: string;
-  dayKicker: string;
-  dayTitle: string;
-  schedule: { time: string; title: string; text: string }[];
-  rsvpKicker: string;
-  rsvpTitle: string;
-  rsvpText: string;
-  name: string;
-  phone: string;
-  guests: string;
-  send: string;
-  sent: string;
   footer: string;
-  photoAlt: string;
+  venuePhotoAlt: string;
   langLabel: string;
 };
 
@@ -65,25 +54,8 @@ export const dictionaries: Record<Lang, Dict> = {
     venueNote:
       "A short ride from the center of Tashkent. Tap below to open the map and directions.",
     directions: "Get directions",
-    dayKicker: "The day",
-    dayTitle: "From ceremony to the last dance",
-    schedule: [
-      { time: "5:00", title: "Arrival & welcome", text: "Gather, greet, and a glass of something warm." },
-      { time: "6:00", title: "The ceremony", text: "We exchange our vows among the flowers." },
-      { time: "7:00", title: "Dinner & toasts", text: "A long table, good food, warm words." },
-      { time: "8:30", title: "First dance", text: "Then the floor is all yours." },
-    ],
-    rsvpKicker: "Kindly respond",
-    rsvpTitle: "Can you join us?",
-    rsvpText:
-      "We would be honored to have you there. Please let us know by the end of September.",
-    name: "Your name",
-    phone: "Phone number",
-    guests: "How many guests",
-    send: "Send RSVP",
-    sent: "Thank you! Your reply has been noted.",
     footer: "With love & gratitude",
-    photoAlt: "Blush and white roses with eucalyptus on a wedding table",
+    venuePhotoAlt: "Elegant banquet hall interior at Royal Rose Venue in Tashkent",
     langLabel: "Choose language",
   },
   ru: {
@@ -108,25 +80,8 @@ export const dictionaries: Record<Lang, Dict> = {
     venueNote:
       "Недалеко от центра Ташкента. Нажмите ниже, чтобы открыть карту и маршрут.",
     directions: "Построить маршрут",
-    dayKicker: "Программа",
-    dayTitle: "От церемонии до последнего танца",
-    schedule: [
-      { time: "17:00", title: "Встреча гостей", text: "Приветствие и бокал за начало вечера." },
-      { time: "18:00", title: "Церемония", text: "Мы произносим клятвы среди цветов." },
-      { time: "19:00", title: "Ужин и тосты", text: "Длинный стол, вкусная еда, тёплые слова." },
-      { time: "20:30", title: "Первый танец", text: "А дальше танцпол — ваш." },
-    ],
-    rsvpKicker: "Ответьте, пожалуйста",
-    rsvpTitle: "Сможете быть с нами?",
-    rsvpText:
-      "Для нас честь видеть вас на празднике. Пожалуйста, сообщите до конца сентября.",
-    name: "Ваше имя",
-    phone: "Номер телефона",
-    guests: "Количество гостей",
-    send: "Отправить ответ",
-    sent: "Спасибо! Ваш ответ принят.",
     footer: "С любовью и благодарностью",
-    photoAlt: "Розовые и белые розы с эвкалиптом на свадебном столе",
+    venuePhotoAlt: "Интерьер элегантного банкетного зала Royal Rose в Ташкенте",
     langLabel: "Выберите язык",
   },
   uz: {
@@ -151,25 +106,8 @@ export const dictionaries: Record<Lang, Dict> = {
     venueNote:
       "Toshkent markazidan bir necha daqiqalik yo‘l. Xarita va yo‘nalish uchun quyidagini bosing.",
     directions: "Yo‘nalishni ochish",
-    dayKicker: "Kun tartibi",
-    dayTitle: "Nikoh marosimidan so‘nggi raqsgacha",
-    schedule: [
-      { time: "17:00", title: "Mehmonlarni kutib olish", text: "Salomlashuv va kechaga xayrli boshlanish." },
-      { time: "18:00", title: "Nikoh marosimi", text: "Gullar qurshovida ahdimizni aytamiz." },
-      { time: "19:00", title: "Ziyofat va tabriklar", text: "Katta dasturxon, mazali taomlar, iliq so‘zlar." },
-      { time: "20:30", title: "Birinchi raqs", text: "So‘ngra maydon sizniki." },
-    ],
-    rsvpKicker: "Javobingizni kutamiz",
-    rsvpTitle: "Biz bilan bo‘lasizmi?",
-    rsvpText:
-      "Sizni to‘yimizda ko‘rish biz uchun katta sharaf. Iltimos, sentabr oxirigacha xabar bering.",
-    name: "Ismingiz",
-    phone: "Telefon raqamingiz",
-    guests: "Nechta mehmon",
-    send: "Javobni yuborish",
-    sent: "Rahmat! Javobingiz qabul qilindi.",
     footer: "Mehr va minnatdorchilik bilan",
-    photoAlt: "To‘y dasturxonidagi pushti va oq atirgullar",
+    venuePhotoAlt: "Toshkentdagi Royal Rose banket zalining nafis interyeri",
     langLabel: "Tilni tanlang",
   },
 };
