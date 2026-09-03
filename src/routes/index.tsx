@@ -228,8 +228,8 @@ function Invitation() {
             <div className="md:col-span-3">
               <div className="relative overflow-hidden rounded-3xl ring-1 ring-border">
                 <img
-                  src={florals}
-                  alt={t.photoAlt}
+                  src={venue}
+                  alt={t.venuePhotoAlt}
                   width={1024}
                   height={768}
                   loading="lazy"
