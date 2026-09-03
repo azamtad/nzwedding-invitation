@@ -77,8 +77,6 @@ function Unit({ value, label }: { value: number | null; label: string }) {
 
 function Invitation() {
   const [lang, setLang] = useState<Lang>("en");
-  const [sent, setSent] = useState(false);
-  const liveRef = useRef<HTMLParagraphElement>(null);
   const t = dictionaries[lang];
   const cd = useCountdown();
 
@@ -94,11 +92,6 @@ function Invitation() {
   const pick = (code: Lang) => {
     setLang(code);
     localStorage.setItem("inv-lang", code);
-  };
-
-  const onSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    setSent(true);
   };
 
   return (
