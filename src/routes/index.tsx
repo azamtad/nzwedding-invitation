@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useEffect, useRef, useState, type FormEvent } from "react";
+import { useEffect, useState } from "react";
 
-import florals from "@/assets/florals.jpg";
+import venue from "@/assets/royal-rose.jpg";
 import {
   dictionaries,
   LANGS,
