@@ -26,19 +26,8 @@ export type Dict = {
   arrivalTime: string;
   venueNote: string;
   directions: string;
-  dayKicker: string;
-  dayTitle: string;
-  schedule: { time: string; title: string; text: string }[];
-  rsvpKicker: string;
-  rsvpTitle: string;
-  rsvpText: string;
-  name: string;
-  phone: string;
-  guests: string;
-  send: string;
-  sent: string;
   footer: string;
-  photoAlt: string;
+  venuePhotoAlt: string;
   langLabel: string;
 };
 
