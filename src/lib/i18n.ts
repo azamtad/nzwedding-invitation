@@ -50,7 +50,7 @@ export const dictionaries: Record<Lang, Dict> = {
     venueName: "Royal Rose Venue",
     venueCity: "Tashkent, Uzbekistan",
     arrivalLabel: "Arrival",
-    arrivalTime: "5:00 PM",
+    arrivalTime: "6:00 PM",
     venueNote:
       "A short ride from the center of Tashkent. Tap below to open the map and directions.",
     directions: "Get directions",
@@ -76,7 +76,7 @@ export const dictionaries: Record<Lang, Dict> = {
     venueName: "Royal Rose Venue",
     venueCity: "Ташкент, Узбекистан",
     arrivalLabel: "Сбор гостей",
-    arrivalTime: "17:00",
+    arrivalTime: "18:00",
     venueNote:
       "Недалеко от центра Ташкента. Нажмите ниже, чтобы открыть карту и маршрут.",
     directions: "Построить маршрут",
@@ -102,7 +102,7 @@ export const dictionaries: Record<Lang, Dict> = {
     venueName: "Royal Rose Venue",
     venueCity: "Toshkent, O‘zbekiston",
     arrivalLabel: "Mehmonlar kutib olinadi",
-    arrivalTime: "17:00",
+    arrivalTime: "18:00",
     venueNote:
       "Toshkent markazidan bir necha daqiqalik yo‘l. Xarita va yo‘nalish uchun quyidagini bosing.",
     directions: "Yo‘nalishni ochish",
