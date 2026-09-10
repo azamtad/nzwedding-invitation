@@ -88,7 +88,7 @@ export const dictionaries: Record<Lang, Dict> = {
     htmlLang: "uz",
     saveTheDate: "Sanani eslab qoling",
     invite:
-      "Birgalikdagi hayotimiz boshlanadigan kunda siz bilan bo‘lishdan katta baxtiyormiz.",
+      "Birgalikdagi hayotimiz boshlanadigan kunda siz bilan bo‘lishdan juda baxtiyormiz.",
     dateLine: "08 · 10 · 2026",
     venueShort: "Royal Rose, Toshkent",
     countKicker: "Daqiqalar sanog‘i",
