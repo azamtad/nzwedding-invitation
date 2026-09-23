@@ -55,7 +55,7 @@ export const dictionaries: Record<Lang, Dict> = {
       "A short ride from the center of Tashkent. Tap below to open the map and directions.",
     directions: "Get directions",
     footer: "With love & gratitude",
-    venuePhotoAlt: "Elegant banquet hall interior at Royal Rose Venue in Tashkent",
+    venuePhotoAlt: "Royal Rose banquet hall emblem",
     langLabel: "Choose language",
   },
   ru: {
@@ -66,7 +66,7 @@ export const dictionaries: Record<Lang, Dict> = {
     dateLine: "08 · 10 · 2026",
     venueShort: "Royal Rose, Ташкент",
     countKicker: "Считаем мгновения",
-    countTitle: "До нашего «да»",
+    countTitle: "До нашей свадьбы",
     days: "Дней",
     hours: "Часов",
     minutes: "Минут",
@@ -81,7 +81,7 @@ export const dictionaries: Record<Lang, Dict> = {
       "Недалеко от центра Ташкента. Нажмите ниже, чтобы открыть карту и маршрут.",
     directions: "Построить маршрут",
     footer: "С любовью и благодарностью",
-    venuePhotoAlt: "Интерьер элегантного банкетного зала Royal Rose в Ташкенте",
+    venuePhotoAlt: "Эмблема банкетного зала Royal Rose",
     langLabel: "Выберите язык",
   },
   uz: {
@@ -107,7 +107,7 @@ export const dictionaries: Record<Lang, Dict> = {
       "Toshkent markazidan bir necha daqiqalik yo‘l. Xarita va yo‘nalish uchun quyidagini bosing.",
     directions: "Yo‘nalishni ochish",
     footer: "Mehr va minnatdorchilik bilan",
-    venuePhotoAlt: "Toshkentdagi Royal Rose banket zalining nafis interyeri",
+    venuePhotoAlt: "Royal Rose banket zali emblemasi",
     langLabel: "Tilni tanlang",
   },
 };
