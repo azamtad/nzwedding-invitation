@@ -293,6 +293,9 @@ function Invitation() {
           <p className="text-center font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground">
             {t.footer}
           </p>
+          <p className="mt-2 text-center font-display text-lg italic text-foreground/70">
+            {t.footerFamily}
+          </p>
         </footer>
       </main>
     </div>

@@ -19,6 +19,7 @@ export type Dict = {
   minutes: string;
   seconds: string;
   started: string;
+  footerFamily: string;
   venueKicker: string;
   venueName: string;
   venueCity: string;
@@ -40,7 +41,7 @@ export const dictionaries: Record<Lang, Dict> = {
     dateLine: "08 · 10 · 2026",
     venueShort: "Royal Rose, Tashkent",
     countKicker: "Counting the moments",
-    countTitle: "Until we say yes",
+    countTitle: "Until our wedding",
     days: "Days",
     hours: "Hours",
     minutes: "Minutes",
@@ -55,6 +56,7 @@ export const dictionaries: Record<Lang, Dict> = {
       "A short ride from the center of Tashkent. Tap below to open the map and directions.",
     directions: "Get directions",
     footer: "With love & gratitude",
+    footerFamily: "Tadjiev's family",
     venuePhotoAlt: "Royal Rose banquet hall emblem",
     langLabel: "Choose language",
   },
@@ -81,6 +83,7 @@ export const dictionaries: Record<Lang, Dict> = {
       "Недалеко от центра Ташкента. Нажмите ниже, чтобы открыть карту и маршрут.",
     directions: "Построить маршрут",
     footer: "С любовью и благодарностью",
+    footerFamily: "семья Таджиевых",
     venuePhotoAlt: "Эмблема банкетного зала Royal Rose",
     langLabel: "Выберите язык",
   },
@@ -107,6 +110,7 @@ export const dictionaries: Record<Lang, Dict> = {
       "Toshkent markazidan bir necha daqiqalik yo‘l. Xarita va yo‘nalish uchun quyidagini bosing.",
     directions: "Yo‘nalishni ochish",
     footer: "Mehr va minnatdorchilik bilan",
+    footerFamily: "Tadjievlar oilasi",
     venuePhotoAlt: "Royal Rose banket zali emblemasi",
     langLabel: "Tilni tanlang",
   },
