@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 
-import venue from "@/assets/royal-rose.jpg";
+import venueLogo from "@/assets/royal-rose-logo.png.asset.json";
 import {
   dictionaries,
   LANGS,
@@ -225,20 +225,15 @@ function Invitation() {
 
         <section className="relative mx-auto max-w-6xl px-6 py-16">
           <div className="grid gap-8 md:grid-cols-5">
-            <div className="md:col-span-3">
-              <div className="relative overflow-hidden rounded-3xl ring-1 ring-border">
-                <img
-                  src={venue}
-                  alt={t.venuePhotoAlt}
-                  width={1024}
-                  height={768}
-                  loading="lazy"
-                  className="aspect-[4/3] w-full object-cover"
-                />
-                <span className="absolute bottom-4 right-4 rounded-full bg-background/70 px-4 py-1.5 font-mono text-[11px] uppercase tracking-widest ring-1 ring-border backdrop-blur-sm">
-                  Royal Rose
-                </span>
-              </div>
+            <div className="flex items-center justify-center md:col-span-3">
+              <img
+                src={venueLogo.url}
+                alt={t.venuePhotoAlt}
+                width={512}
+                height={512}
+                loading="lazy"
+                className="size-60 rounded-full sm:size-72"
+              />
             </div>
             <div className="rounded-3xl bg-card p-8 ring-1 ring-border backdrop-blur-xl md:col-span-2">
               <p className="font-mono text-xs uppercase tracking-[0.35em] text-gold">
